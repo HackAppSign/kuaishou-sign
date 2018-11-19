@@ -9,10 +9,6 @@ class AbstractSign(object):
 class OnlineKuaishouSign(AbstractSign):
     def work(self, url, payload):
         pass
-   
-class OfflineKuaishouSign(AbstractSign):
-    def work(self, url, payload):
-        pass
 
 class KuaishouSdk(object):
     def __init__(self, signer):
